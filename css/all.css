@@ -63,7 +63,6 @@ table {
 
 html, body {
   position: relative;
-  /*height: 100%;*/
   background-color: #fff;
   margin: 0;
   padding: 0;
@@ -355,30 +354,11 @@ a{
 
 .social-media .svg-inline--fa:hover{
   filter: brightness(0.5);
-  -webkit-filter brightness(0.5);
+  -webkit-filter: brightness(0.5);
 }
 
 
 @media screen and (max-width: 768px){
-  .footer {
-    max-width: 100%;
-  }
-  .footer h2{
-    display: none;
-  }
-  .social-media h2 a {
-    margin: 0px;
-    height: 40px;
-    width: 200px;
-  }
-  .social-media .svg-inline--fa.fa-w-14{
-   margin: 0;
-   padding: 0;
-  }
-
-}
-
-@media screen and (max-width: 440px){
   .footer {
     max-width: 100%;
     display: block;
@@ -761,8 +741,6 @@ a{
   margin-left: 20px;
 }
 
-.booking-form ul{
-}
 .booking-form li{
   margin: 15px 0px;
 }
